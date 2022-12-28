@@ -30,6 +30,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', 'https://8000-vivignutz-djangoburger-88pbf2ocb4d.ws-eu80.gitpod.io/']
 
 
+# SECURITY KEY
+SECRET_KEY = os.environ["SECRET_KEY"]
+
+
 # Trusted Origins
 CSRF_TRUSTED_ORIGINS = ['https://8000-vivignutz-djangoburger-88pbf2ocb4d.ws-eu80.gitpod.io']
 
