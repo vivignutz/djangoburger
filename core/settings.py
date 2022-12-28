@@ -19,13 +19,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--oglz_gb=!+h27-l2=-rzvk58%s_#*4$_579czav904@tm5_1c'
+
+
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'http://localhost:8000/', 'https://8000-vivignutz-djangoburger-88pbf2ocb4d.ws-eu80.gitpod.io/']
+ALLOWED_HOSTS = ['localhost', 'https://8000-vivignutz-djangoburger-88pbf2ocb4d.ws-eu80.gitpod.io/']
 
 
 # Application definition
