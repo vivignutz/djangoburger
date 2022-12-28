@@ -8,4 +8,4 @@ def home(request):
 
 
 def details_product(request):
-    return HttpResponse('Hello, you are in the product details page')
+    return HttpResponse('This is the roduct details page')

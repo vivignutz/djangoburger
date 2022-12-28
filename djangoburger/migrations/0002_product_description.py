@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='product',
             name='description',
-            field=models.TextField(default=datetime.date),
+            field=models.TextField(),
             preserve_default=False,
         ),
     ]

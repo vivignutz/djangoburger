@@ -7,9 +7,8 @@ from django.db import models
 class product(models.Model):
     description = models.TextField(null=False, blank=False)
     price = models.FloatField(null=False, blank=False)
-    auto_now_add=True
+    image = models.ImageField(upload_to='djangoburger/img', default='', null=False, blank='False')
 
 
     def __str__(self):
         return self.description
-
