@@ -2,6 +2,12 @@
 
 {% block title %} Django Burger {% endblock %}
 
+{% block header %}
+
+{% include 'fragments/navbar.html' %}
+
+{% endblock %}
+
 {% block content %}
 <h1> Initial Page - Content injection</h1>
 {% endblock %}

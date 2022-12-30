@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'https://8000-vivignutz-djangoburger-88pbf2ocb4d.ws-eu80.gitpod.io/']
+ALLOWED_HOSTS = ['localhost', 'http://localhost:8000/', 'https://8000-vivignutz-djangoburger-88pbf2ocb4d.ws-eu80.gitpod.io/']
 
 
 # SECURITY KEY
