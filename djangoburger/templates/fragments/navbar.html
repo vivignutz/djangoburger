@@ -1,5 +1,6 @@
+<h1>Django Burger</h1>
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand text-warning fs-3" href="#">Django Burger</a>
+    <a class="navbar-brand text-warning fs-3" href="{% url 'home' %}">Django Burger</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -8,10 +9,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ms-auto">
             <li class="nav-item active">
-                <a class="nav-link active text-warning" href="#">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link active text-warning" href="{% url 'contact' %}">Contact <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="{% url 'products:list' %}">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="{% url 'login' %}">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="#">Sign Up</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-warning" href="#">Berlin, Germany.</a>
+                <a class="nav-link text-warning" href="{% url 'register' %}">Berlin, Germany.</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
